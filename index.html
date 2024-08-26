@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Pessoal Uninter</title>
+  <style>
+    
+    /* Resetar padrões do navegador */
+    body, h1, h2,p, ul, li, form, input, textarea {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 18px;
+    }
+    
+    h3{
+      font-size: 22px;
+      text-decoration: underline;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f1ede2;
+      color: #020202;
+      padding: 20px;
+    }
+    /* stylo do cabeçalho */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav ul li{
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+  
+
+    }
+    /* stylo do formulario */
+    form{
+      margin: 0 auto;
+      width: 50%;
+      max-width: 400px;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      padding: 10px;
+      border: 10px solid #333;
+      border-radius: px; 
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+
+    li{
+      list-style: none;
+
+    }
+
+    form input, form textarea {
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    label {
+      margin-bottom: 5px;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    /* botão de voltar para o topo da pagina */
+    #link_top {
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   font-size: 24px;
+   cursor: pointer;
+   color: #000000;
+   text-decoration: none;
+   opacity: 0.5;
+   text-shadow: 0px 1px 4px #fff; /* Adiciona uma sombra branca */
+   transition: opacity 0.5s ease-in-out;
+   
+   }
+   footer{
+    margin-top: 20px;
+    padding-bottom: 80px;
+
+   }
+   p {
+    margin-bottom: 10px;
+    }
+    /* padroniza o tamanho das imagens */
+    #imggit{
+      width: 60%;
+      
+    }
+    #gitlink:visited{
+      
+      color: #000;
+    }
+    #gitlink:hover{
+      
+      color: #0905ec;
+    }
+    #linkedin :hover{
+      color: #02a6ff;
+    }
+    #linkedin:visited{
+      
+      color: #000;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!--cabeçalho da pagina -->
+  <header id="topo">
+  
+    <nav>
+      <ul>
+         <li><a href="#sobre_mim">Sobre Mim</a></li>
+         <li><a href="#formacao">Formação</a></li>
+         <li><a href="#portifolio">Portifólio</a></li>
+         <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+     <!-- LInk "sobre mim"   -->
+  <main id="sobre-mim">
+    <h3>Sobre Mim:</h3>
+    <p>Olá! Meu nome é Vitor Filipe Cerqueira, sou um estudante de Tecnólogo em Análise e Desenvolvimento de Sistemas, movido pela curiosidade e paixão por tecnologia. Desde que comecei a mergulhar no mundo da programação e desenvolvimento de software, descobri uma verdadeira vocação. Estou sempre buscando aprender mais e me aprimorar, seja através de novos desafios acadêmicos ou explorando projetos pessoais.</p>
+    <p>Fora do universo tecnológico, sou um grande fã de futebol e videogames. O futebol é minha maneira favorita de desconectar e me divertir, além de me ensinar sobre a importância de trabalhar em equipe e manter a disciplina. Já os videogames são mais do que um hobby; eles me desafiam a pensar fora da caixa e a encontrar soluções criativas para problemas, algo que levo também para a minha vida acadêmica e profissional.</p>
+    <p>Essas paixões me ajudam a manter um equilíbrio saudável entre estudo, trabalho e lazer, e me motivam a ser a melhor versão de mim mesmo em tudo o que faço.</p>
+    <img id="imagem_sobre" src="https://media.licdn.com/dms/image/v2/D4D03AQHG2k2774vgbg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721512508999?e=1730332800&v=beta&t=Ktryg5CgJ3JiZ_pwGP5mFVM4rMe0bisP94SGWIyNvSw" alt="">
+    <a id="link_top" href="#topo">Voltar ao topo</a>
+  </main>
+<!-- LInk "sobre sua formação/idiomas"   -->
+  <main id="formacao">
+    <h3>Formação:</h3>
+    <li style="list-style:circle"><b>Tecnólogo em Análise e Desenvolvimento de Sistemas</b>(Em andamento)
+      Atualmente estou cursando este curso, onde aprofundo meus conhecimentos em programação, desenvolvimento de software e soluções tecnológicas.
+    </li>
+    <li style="list-style: circle;"><b>Técnico em Automação Industrial</b>, este curso me proporcionou uma base sólida em sistemas de automação, controle de processos e integração de tecnologias industriais.
+    </li>
+    <h4>Idiomas:</h4>
+    <li style="list-style: circle;"><b>Inglês:</b> Intermediário, Consigo me comunicar de forma eficaz e compreender a maioria dos textos e conversas em inglês.
+      </li>
+    <li style="list-style: circle;"><b>Espanhol:</b>Básico, Tenho conhecimentos básicos que me permitem entender e participar de conversas simples em espanhol.</li>
+    <a id="link_top" href="#topo">Voltar ao topo</a>
+  </main>
+   <!-- LInk com meus projetos e portifolio  -->
+  <main id="portifolio">
+    <h3>Portifólio</h3>
+    <ul>
+      <li>Trabalho 1</li>
+      <p>Nesse projeto, eu me desafiei a recriar e desenvolver a pagina inicial do google, aplicando meus conhecimentos em phtml e css: </p>
+      <a id="gitlink" href="https://github.com/VitorFilipe/Pagina-inicial-google.git" target="_blank">https://github.com/VitorFilipe/Pagina-inicial-google.git</a> <br>
+
+      <img id="imggit" src="https://github.com/user-attachments/assets/327070b3-2142-44b8-b817-9f91237c76b1" alt="">
+      
+
+      <li>Trabalho 2</li>
+      <p> Com os conhecimentos adquiridos ao logo da rota de aprendizagem do curso pude desenvolver uma biografia em html e css:</p>
+      <a id="gitlink" href="https://github.com/VitorFilipe/Biografia-de-Stan-Lee.git" target="_blank">https://github.com/VitorFilipe/Biografia-de-Stan-Lee.git</a>
+      <br>
+
+      <img id="imggit" src="https://github.com/user-attachments/assets/741f7724-44fb-4730-a146-8758264b68fa" alt="">
+
+
+    <a id="link_top" href="#topo">Voltar ao topo</a>
+  </main> 
+
+  <!-- Link para o formulário de contato -->
+  <main id="contato">
+    <h3>Contato</h3>
+
+    <P>Deseja  entra em contato?
+    
+      Caso deseje entrar em contato;<br>
+      <a style="color: #000000; text-decoration: none;" href="vitor-filipe@outlook.com">vitor-filipe@outlook.com</a>
+      <br>
+      <a id="linkedin"  href="https://www.linkedin.com/in/vitor-filipe/" target="_blank">LinkedIn</a>
+      <br>
+      
+    </P>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" id="mensagem" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+    <a id="link_top" href="#topo">Voltar ao topo</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Vitor Filipe. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
